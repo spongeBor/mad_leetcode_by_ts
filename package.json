@@ -1,11 +1,14 @@
 {
   "name": "mad_leetcode_by_ts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "老子是一个疯狂的leetcode 刷题机器 虽然我没有受刺激，但我只使用typescript 来刷题！",
   "main": "index.js",
   "scripts": {
     "commit": "cz",
-    "commit:amend": "git commit --amend --no-edit"
+    "commit:amend": "git commit --amend --no-edit",
+    "release:patch": "standard-version --patch",
+    "release:minor": "standard-version --minor",
+    "release:major": "standard-version --major"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,7 @@
   "homepage": "https://github.com/spongeBor/mad_leetcode_by_ts#readme",
   "devDependencies": {
     "commitizen": "^4.3.0",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "standard-version": "^9.5.0"
   }
 }
