@@ -1,2 +1,3 @@
 # mad_leetcode_with_ts
-只使用typescript 疯狂的leetcode 刷题机器
+老子是一个疯狂的leetcode 刷题机器
+虽然我没有受刺激，但我只使用typescript 来刷题！
