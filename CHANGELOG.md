@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/spongeBor/mad_leetcode_by_ts/compare/v0.0.1...v0.0.2) (2023-04-20)
+
+
+### Features
+
+* **tree:** add 100 ([dd8c478](https://github.com/spongeBor/mad_leetcode_by_ts/commit/dd8c47844074185bd9cb4ebda6717c3749a89c56))
+* **tree:** add 101 ([464750d](https://github.com/spongeBor/mad_leetcode_by_ts/commit/464750ddf1251b564809aef3190a4dc6b1eedc35))
+* **tree:** add 102 ([69b51e7](https://github.com/spongeBor/mad_leetcode_by_ts/commit/69b51e78da457ca24e552e63eab47bb11193a668))
+* **tree:** add 103 ([37a34f3](https://github.com/spongeBor/mad_leetcode_by_ts/commit/37a34f36c7182ca9e7916eed4f457efcc9571704))
+* **tree:** add 104 ([2bfce4a](https://github.com/spongeBor/mad_leetcode_by_ts/commit/2bfce4aa5650f2c7eb1b8121e4f83c0967171436))
+* **tree:** add 94 ([6cbb800](https://github.com/spongeBor/mad_leetcode_by_ts/commit/6cbb8008e5b90491d999e07ee921b9adf054c169))
+* **tree:** add 95 ([ed230a4](https://github.com/spongeBor/mad_leetcode_by_ts/commit/ed230a4fc7d5b1ff6e40a002fc73604247bd3b0e))
+* **tree:** add 96 ([58dc6b3](https://github.com/spongeBor/mad_leetcode_by_ts/commit/58dc6b3b577a70c5ac146e2d92baa342469732fd))
+* **tree:** add 98 ([d064c23](https://github.com/spongeBor/mad_leetcode_by_ts/commit/d064c23bcb563890f693101dfeeec55559cde547))
+* **tree:** add 99 ([5e9b4f7](https://github.com/spongeBor/mad_leetcode_by_ts/commit/5e9b4f74a971d2dbfddca5c5d2704ca8a0ce56e5))
+
 ### 0.0.1 (2023-04-19)
 
 
