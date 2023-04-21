@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=105 lang=typescript
+ * @lc app=leetcode.cn id=106 lang=typescript
  *
- * [105] 从前序与中序遍历序列构造二叉树
+ * [106] 从中序与后序遍历序列构造二叉树
  */
 
 // @lc code=start
@@ -19,22 +19,22 @@
  * }
  */
 
-function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
-  let preIdx: number;
+function buildTree(inorder: number[], postorder: number[]): TreeNode | null {
+  let postIdx: number;
   const idxMap = new Map<number, number>();
   const helper = (inLeft: number, inRight: number) => {
     // inLeft/inRight 都是序号
     if (inLeft > inRight) return null;
-    const rootVal = preorder[preIdx++];
+    const rootVal = postorder[postIdx--];
     const root = new TreeNode(rootVal);
     const index = idxMap.get(rootVal)!;
     // 对于中序遍历，根节点的前一节点总是其左孩子， 后一节点总是其右孩子
-    // 要先左后右,因为数是从先序遍历中取的, 先左后右
-    root.left = helper(inLeft, index - 1);
+    // 要先右后左,因为数是从后序遍历中取的，后序遍历先存左值后存右值，但是倒着读取
     root.right = helper(index + 1, inRight);
+    root.left = helper(inLeft, index - 1);
     return root;
   };
-  preIdx = 0;
+  postIdx = postorder.length - 1;
   inorder.forEach((val, idx) => {
     idxMap.set(val, idx);
   });
