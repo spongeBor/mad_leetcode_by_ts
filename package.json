@@ -1,6 +1,6 @@
 {
   "name": "mad_leetcode_by_ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "老子是一个疯狂的leetcode 刷题机器 虽然我没有受刺激，但我只使用typescript 来刷题！",
   "main": "index.js",
   "scripts": {
